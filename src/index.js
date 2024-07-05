@@ -39,5 +39,17 @@ function changecolor(){
 let ptwo = document.getElementById("ptwo");
 ptwo.addEventListener("click", changecolor);
 
+function changewidth(){
+    let pone = document.getElementById("pone");
+    pone.style.width = "300px"
+}
+  
+
+
+let pone = document.getElementById("pone");
+pone.addEventListener("mouseleave",changewidth );
+
+
+
 let pthree = document.getElementById("pthree"); //selecting the 3rd paragraph
 pthree.addEventListener("click",findMe); //adding an event listener to the 3rd paragraph
