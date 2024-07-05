@@ -1,4 +1,4 @@
-h1{font-size: 40px;
+/* h1{font-size: 40px;
 background-color: purple;
 border: 10px;
 border-radius: 10px;
@@ -6,4 +6,18 @@ margin-left: 20px;
 padding-left: 20px;
 text-align: center;
 border-style: ridge;
-border-color: black;}
+border-color: black;} */
+
+.paragraph-divs{
+    width: 70%;
+    margin: 0 auto;
+}
+
+p{background-color: teal;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 20px;
+
+}
+
+#pfour{display: none;}
