@@ -42,6 +42,12 @@ ptwo.addEventListener("click", changecolor);
 function changewidth(){
     let pone = document.getElementById("pone");
     pone.style.width = "300px"
+
+    function changeNormal(){
+        pone.style.width = "";
+    }
+
+    pone.addEventListener("mouseenter", changeNormal);
 }
   
 
